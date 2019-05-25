@@ -1,7 +1,10 @@
 language: node_js
 node_js:
-  -8.11.2
+  -"8.11.2"
+cache:
+  directories:
+    -"node_modules"
 install:
-  -npm i express express-handlebars mocha supertest morgan chai chai-http nodemon
+  -npm i express mocha supertest chai
 script:
   -npm run test
