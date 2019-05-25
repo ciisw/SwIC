@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  -8.11.2
+install:
+  -npm i express express-handlebars mocha supertest morgan chai chai-http nodemon
+script:
+  -npm run test
