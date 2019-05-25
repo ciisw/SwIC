@@ -1,0 +1,33 @@
+{
+  "name": "Integracion-ContinuaISW",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "nodemon --exec mocha -R min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoRomero3210/SwIC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoRomero3210/SwIC/issues"
+  },
+  "homepage": "https://github.com/NicoRomero3210/SwIC#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.0",
+    "express-handlebars": "^3.1.0",
+    "mocha": "^6.1.4",
+    "morgan": "^1.9.1",
+    "supertest": "^4.0.2"
+  }
+}
