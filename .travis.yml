@@ -8,3 +8,10 @@ install:
   - npm install express mocha supertest chai
 script:
   - npm run test
+deploy:
+  provider: heroku
+  api_key:
+    secure: jRzGpdUy8MhrUu5ztNMxnA
+  app: ricardoiorin
+  on:
+    repo: NicoRomero3210/SwIC
