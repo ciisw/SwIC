@@ -11,9 +11,7 @@ script:
 deploy:
   provider: heroku
   skip_cleanup: true
-  email: "nicoromero3210@gmail.com"
-  password: "malam1p1j1ta+"
-  api_key: l0NBv/5JeytgohX4cM1vrKtmNgIfNIb19BwWW80KMQgQ+58XexUI5tW/QZY/vDlzHWWOyqtRTaTFky788LJX/14RGjCbL6ZzeOqVlWvFx4G7edMAk1GMK4A6f11FNtwVTOrh7pyjYd1Uw+0MBWK29Q5QFnRzfCppLk/ubl2TBtvkb6VRkYGTLJ33LFR63i2sAJEc1WRVArIKFsYek45kNkiDDfK/aY1GfI4wBHRJ3X1Vb8cE+OOFyMktQZJkIXawzd1IZiJdofBpcXFBTHS8FQiqRHwOM+RRvahEim2rK47sLfFxZKe6eB422UfOzm+/t/Rwx4O32MIMlAHY/iMnizvx0/CDKG75R0Z/5Qg8mk9CrL7DeoGS4rRQC4qdtGdh6eHsupHhfVp2GGylSoT19/xafIt3mjbcuFGPFh5F9k0ArHD9gJN08Jz3yKGWWbfGJKLiDsQzHx9+AyweXgW08xknzUb/9WobfG8ZX/nMoYcrXtM9VNw60AEfs57Cv5SbM0Ny9lbshKH8r6+zAZAgojYA0IH8nBWj5FHAgTNkPeAJoGq+e7T/VqYRgKxcgbVNWTvjg1ma3cqhwvRGdT90BP/VavOrXznax7UziHm5hP3aS+auk1JH/rAYf7eVdgqbSsm0WJwCJMz0VA02Kk6NZUANjjlFxyaK21kxsEuYB6Y=
+  api_key: ba49db4b-8a73-470c-b692-293b7d7efec0
   app: ricardoiorin
   on:
     repo: NicoRomero3210/SwIC
