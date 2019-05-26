@@ -14,4 +14,4 @@ deploy:
     secure: jRzGpdUy8MhrUu5ztNMxnA
   app: ricardoiorin
   on:
-    repo: NicoRomero3210/SwIC
+    repo: NicoRomero3210/SwI
