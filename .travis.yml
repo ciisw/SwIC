@@ -1,17 +1,17 @@
 language: node_js
 node_js:
-  - lts/*
+- lts/*
 cache:
   directories:
-    - "node_modules"
+  - node_modules
 install:
-  - npm install express mocha supertest chai
+- npm install express mocha supertest chai
 script:
-  - npm run test
+- npm run test
 deploy:
   provider: heroku
   api_key:
-    secure: jRzGpdUy8MhrUu5ztNMxnA
+    secure: Tu86S9MC8mYlhiakpepBCMHZyj+5GRNFuqCT2OZhWIygIkQ2Jl7VB6iy6iQWLwQFzyXZjlP3WmcTtIV2Ql6mMjoCilunjmrmuqpHtZi0tORRqql017kybwijN39qc1DoZKBiYVByjLNg0iqPeu//QcXN/wK+BnRV94C5ZypW0yte7FhCNzbvI6pIVRXr+qHl8ZB8YRaCb786J+O8bOVh+EsXnruC7HQ8wb7XnD6jbwwj4ir5lmxvfczIJKpV3hl7gprj3vJK0LTnu/YxtpdLscN82ThNyQhLUeUgBwXbu9QQZbgAlDzBZE2z1/anLsPff+nENyilvz8fVFajzYe/LyMSHYlkISXpYwkv1DB/8bH1NGq2UwkmIj/XHzor7FQEOxtYG+NEs6xLr9lEEHqRR78RJ/SgNQjKgcKfXgL+uNYG8U/sJoDsYxLUkcoJfIoN50vKN+cTMvwwYdqQGKxvfO6dpLXvZBXYxW7d5oz9iMpLOj0N95hLi6BmH9S1rx+rjvuLQFxoaitB6lwrnOJOcPh3PPUF0mua61banSKMNLvR1wZMWoPZQDxJCUuwLZLv/T0fe/ZSws8oLcPm6qJMaICveHD5HCJY+yw7u5zEuEHgXk0PSYyN5OkYmOpazAulSm84tefK757ktmjnEd2rPI5epZMJv3wSNqjir2H3rrU=
   app: ricardoiorin
   on:
     repo: NicoRomero3210/SwIC
