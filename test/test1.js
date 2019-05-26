@@ -1,9 +1,16 @@
 var assert = require('assert');
 var request = require('supertest');
-var app = require('../src/index.js');
+var server = require('../src/index.js');
 var request = request("http://localhost:4000");
 
 describe("Aplicacion Express", () => {
+
+
+	afterEach(function(){
+
+		server.close();
+
+	});
 
 	it("Tirame una sooga Japish japish" , (done) => {
 
