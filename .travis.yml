@@ -12,7 +12,7 @@ deploy:
   provider: heroku
   skip_cleanup: true
   api_key:
-    secure: LyZ7lp3ZV+gL6IUgtC+qtnohuX3n/XzsxNB25Sqnk3AlnmIQiAmiArQ87i91pyfu/s4Ns+2g/Gb9DZk0shtUChxTIhCRJm9/zK5m0121js3mwBC915SPtdEfj1GA9AnBQlVTxZKwAQaMs9byI/GSlXUsPtML6ZlxKO2UUgusaLNeL9Gs3mEbmHS1nCKPHftghMwLFCZpC5x/UpaOPFTcebY7y58D44PdnYGr/Er67Mukr8M+A/Sdfd8gky+TAZX7uAzZyO1I1a2ns4X3gOh73d3H++5TasjnPO8GUyTAM7SaeamEUFsNWzX9IQWcwlZc9vXz8J1Nj1rUW3iLLUh2IqdP+h/ZWJkCBW8YQY9uWAJPt9VVKvz7Gbkbh7KbuvbSymIyb4wXBcIK5KIVWRlEN0cPu4oSmR+QEQFHwAsnHzYZ/louggmwu+HdlTnDVCWI+A//Ob1W3ITgIl+AKybN4dgz//gSndi6uP872ZprcTNpGL1iC4ZXS7zMFe7RRGAue7YHkZ2C0bcZMeq3e+GvC3oeQoqzGCWYGZCe71k5VuFGiPysXu4uxVvFFsHhUpWPGgBrZxV5m2A6rYKZxrWGpbGsJfnO3e47GdhtfccxF6a6Kp8hWR6rm3i2E2qQHmdxZN/TSC07oCsrYK8W+6zYEB8EODjbjZYg/QAzfHug3FE=
+    secure: 
   app: ricardoiorin
   on:
     repo: NicoRomero3210/SwIC
