@@ -12,7 +12,7 @@ const app = express();
 
 //SETTINGS
 
-app.set('port', process.env.port||4000);//Aca le digo agarra lo que tenga la variable de entorno
+app.set('port', process.env.PORT||4000);//Aca le digo agarra lo que tenga la variable de entorno
 //PORT y si no tiene nada metele al puerto 4000
 
 //__dirname es una constante de nodejs que contiene la direccion de la ruta del archivo global del js
