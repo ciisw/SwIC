@@ -7,4 +7,5 @@ cache:
 install:
   - npm install express mocha supertest chai
 script:
+  - npm run dev
   - npm run test
