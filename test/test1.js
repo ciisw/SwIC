@@ -1,6 +1,6 @@
 var assert = require('assert');
 var request = require('supertest');
-var app = require('../src/routes/links.js');
+var app = require('../src/index.js');
 var request = request("http://localhost:4000");
 
 describe("Aplicacion Express", () => {
