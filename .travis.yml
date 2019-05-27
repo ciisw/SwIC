@@ -11,8 +11,8 @@ script:
 deploy:
   provider: heroku
   skip_cleanup: true
-  api_key: ba49db4b-8a73-470c-b692-293b7d7efec0
+  api_key:
+    secure: j0phq349YIm9tctBKc9uQWtq/w1dH3ILzxLzE22FBiGFpF2z6XrveOE4fVcwCLu8tmKKjN8tOMjGzAqzGelJpjJy+7AFqb1ZsdDHwNJ6jjVXfO6ebftfXWXe0fpMKxNYBVRA3JnYqUFdtCzOpQk774OTOV7RQ4eIgns7VNZya0nnFG69QlW8RJPkFXH3A9jxAup0om5zPuDX1xoJsoc2t56QBALqfgAEuIDwfWY8xaOioulaAVCQeo8GUtQn04sVojlysry6WgbkqSgKkvuUDlbSnnkj2xGovGGPmHG4wfB3OA011osQP931nf8Skn061iQXSSiSRESzm5o9zw+Z9NY2uVEvHzswqZCBP7qddNVU47LXhQmHjleXSCjQkiMOzJ8MZcmTWn9pWBBjNoazlRBX+7GXBbTLSWjpEoC605MX9hlujiggycFRtQoveBAqfyLGSQ4evg1ti6bhSSruRtYqXJwMlrcealzpTNkaV5w/JZESeMgYct6Yu7NuqhC7bq3VoO/XNsh5Sh+pT4LKs9MlVoSzBQypHG1BNF2RUzjh5v/S/YtAOz25dYnYVmLibeHhgGbGglcDcxczx5cYf7vxb3tr5aZ3u3kKIv+DXSj+YD/kuOEX/VLU7/Jy+XKK8ldX6+E9Eu1t9NxgaCi/bYmojUErbaAfaa6OPPn26J8=
   app: ricardoiorin
   on:
     repo: NicoRomero3210/SwIC
-  
