@@ -29,9 +29,11 @@ router.post('/add', (req,res)=>{
 	//result2 = typeof result;
 	
 	//res.locals.dato = result2;
-	console.log(req.body.valor2.length);
+	//console.log(req.body.valor2.length);
+	res.locals = result;
 	res.render('index',{result});
-	//console.log(res.locals);
+
+	console.log(res.locals);
 	//return (typeof result);
 
 	//res.json({"error" : false, "message" : "success", "data" : req.body.num1 + req.body.num2});

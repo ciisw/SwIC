@@ -11,10 +11,19 @@ describe("Aplicacion Express", () => {
 
 	
 
-	it("Tirame una sooga" , () => {
+	it("Tirame una sooga" , (done) => {
 
 		//request.post('/links/add').send({valor1:"5",valor2:"2"}).expect(200,done);
-		//request.post('/links/add').send({valor1:"3",valor2:"5"}).expect(200,{"dato": "number"},done);
+		/*request.post('/links/add').send({valor1:"3",valor2:"5"}).expect(function(response){
+
+			assert(response.locals, "8");
+			//response.locals  != "n";
+			//console.log(res.locals);
+			
+
+		}).end(done);*/
+		
+
 		result = suma("4","5");
 		
 
@@ -25,7 +34,27 @@ describe("Aplicacion Express", () => {
 
 		assert2.equal((!isNaN(result)),true);
 
-		//done();
+		done();
+		
+
+
+		});
+
+		it("Si pasas te convertis en Heroe" , (done) => {
+
+		//request.post('/links/add').send({valor1:"5",valor2:"2"}).expect(200,done);
+		//request.post('/links/add').send({valor1:"3",valor2:"5"}).expect(200,{"dato": "number"},done);
+		result = suma("r","5");
+		
+
+
+		//request.post('/links/add').send({valor1:"r",valor2:"5"}).expect(function(res){assert.equal(res.locals.dato,"string")}).end(done);
+		
+
+
+		assert2.equal(result,"Alguno de tus datos no es numerico amigueoouuu");
+
+		done();
 		
 
 

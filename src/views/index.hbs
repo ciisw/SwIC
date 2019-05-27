@@ -43,10 +43,13 @@
 	</div>
 </div>
 	
-
+	{{#if result}}
 	<h3 class="mb-5"><em>Resultado:</em></h3>
 	<h3 class="mb-5">{{result}}</h3>
-
+	{{else}}
+	<h3 class="mb-5"><em>Resultado:</em></h3>
+	<h3 class="mb-5">nada por aqui</h3>
+	{{/if}}
 	</div>
 
 	</header>

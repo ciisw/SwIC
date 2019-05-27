@@ -12,7 +12,8 @@ sumar = function(valor1,valor2){
 	}
 	else{
 
-		result = "" + "Alguno de tus datos no es numerico amigueroouuu";
+		//result = "" + "Alguno de tus datos no es numerico amigueroouuu";
+		result = "";
 		//res.status(200).json({dato: (typeof result)});
 	
 	}
