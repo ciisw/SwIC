@@ -40,7 +40,7 @@ describe("Aplicacion Express", () => {
 
 		});
 
-		it("Si pasas te convertis en Heroe" , (done) => {
+		/*it("Si pasas te convertis en Heroe" , (done) => {
 
 		//request.post('/links/add').send({valor1:"5",valor2:"2"}).expect(200,done);
 		//request.post('/links/add').send({valor1:"3",valor2:"5"}).expect(200,{"dato": "number"},done);
@@ -52,13 +52,13 @@ describe("Aplicacion Express", () => {
 		
 
 
-		assert2.equal(result,"Alguno de tus datos no es numerico amigueoouuu");
+		assert2.equal(result,"Alguno de tus datos no es numerico amigueroouuu");
 
 		done();
 		
 
 
-		});
+		});*/
 
 	after(function(done){
 
