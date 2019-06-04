@@ -24,7 +24,7 @@ describe("Aplicacion Express", () => {
 		}).end(done);*/
 		
 
-		result = suma("4","5");
+		result = suma("9","5");
 		
 
 
@@ -32,7 +32,7 @@ describe("Aplicacion Express", () => {
 		
 
 
-		assert2.equal((!isNaN(result)),true);
+		assert2.equal((typeof result == 'number'),true);
 
 		done();
 		
