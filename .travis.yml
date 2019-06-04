@@ -12,8 +12,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   api_key:
-    secure: gKTvRGRHB7YglLuuxNnkbxfpg4b685jMRpnumNLqdPTGnHyjsfdsqLAjKiOGBzmQ/GWjWSXeOtlPFdcYPyOvqNl2UCrwHG3acCQbxxK8/xLLUoERmfPVTddEaGgP8lI8iieJLLHlFDyjRy0lJtDz/zvFlqLga9QRMcSGYWhtAXlc/AZ9wAspjmViav0FijvEsaIfwDZk3kwTb+e+8WlTc+5iUsG3I4r6HI387b6v/oOPeMd9Hr275vujJl9q5ZE3ZYGu2PGgkgmqm40CAQA7eO0jvCIUu3J3Leq3x89LqJM+chzxEEnz7UHqh/whitVL6Xm+XffojmpTKgM6eePDPYrYOgguRNT9ZzfbSRJ/MfyJ+iTegv64Sm7Zk9iWnECWoIWLABZEhlRD1He5ZIVkGSaP9SsF0O5WQUxpB1cYxHelmhqF+VxJI5raimgnEKFcWRphGMlqGxtxr9TK9rhXGyyX4IiIAHrLQfXWwEEiP2Vu1dnqgstevro5ZVd9dp1Jr70oCRnW0ushT92N4zB0/MjjV0wLGzFyXW39Rx1uy1LxqBtRYZDq9QcVgVK1UQzo9cClamYq4+eCmknG5h7K1aC8qlqfm2O+QPKd1oGT1xNctlOO4zjvbi820lkRM+wyDE0BRSxZAuNlV/LhFhnp4Uysfk1UEsfHdlzTgU5J740=
-  app: iswapp
+    secure: e3ad0881-5717-41f5-be4b-e903cc203198
+  app: continuosintegration
   on:
-    repo: NicoRomero3210/SwIC
+    repo: ciisw/SwIC
  
