@@ -13,25 +13,9 @@ describe("Aplicacion Express", () => {
 
 	it("Tirame una sooga" , (done) => {
 
-		//request.post('/links/add').send({valor1:"5",valor2:"2"}).expect(200,done);
-		/*request.post('/links/add').send({valor1:"3",valor2:"5"}).expect(function(response){
-
-			assert(response.locals, "8");
-			//response.locals  != "n";
-			//console.log(res.locals);
-			
-
-		}).end(done);*/
-		
 
 		result = suma("9","5");
 		
-
-
-		//request.post('/links/add').send({valor1:"r",valor2:"5"}).expect(function(res){assert.equal(res.locals.dato,"string")}).end(done);
-		
-
-
 		assert2.equal((typeof result == 'number'),true);
 
 		done();
@@ -40,25 +24,20 @@ describe("Aplicacion Express", () => {
 
 		});
 
-		/*it("Si pasas te convertis en Heroe" , (done) => {
+	it("Hoy te convertis en heroe" , (done) => {
+			
 
-		//request.post('/links/add').send({valor1:"5",valor2:"2"}).expect(200,done);
-		//request.post('/links/add').send({valor1:"3",valor2:"5"}).expect(200,{"dato": "number"},done);
-		result = suma("r","5");
+		result = suma("a","5");
 		
-
-
-		//request.post('/links/add').send({valor1:"r",valor2:"5"}).expect(function(res){assert.equal(res.locals.dato,"string")}).end(done);
-		
-
-
-		assert2.equal(result,"Alguno de tus datos no es numerico amigueroouuu");
+		assert2.equal((typeof result == 'undefined'),true);
 
 		done();
 		
 
 
-		});*/
+		});
+
+		
 
 	after(function(done){
 
@@ -67,7 +46,6 @@ describe("Aplicacion Express", () => {
 
 	});
 
-	//server.close();
 
 	})
 
