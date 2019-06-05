@@ -6,8 +6,6 @@ cache:
   - node_modules
 install:
 - npm install express mocha supertest chai
-script:
-- npm run test
 deploy:
   provider: heroku
   skip_cleanup: true
@@ -16,4 +14,9 @@ deploy:
   app: continuosintegration
   on:
     repo: ciisw/SwIC
+addons:
+  sonarcloud: true
+script:
+  - npm run test
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=nicoromero3210-github -Dsonar.projectKey=NicoRomero3210_SwIC -Dsonar.sources='./src' -X
  
